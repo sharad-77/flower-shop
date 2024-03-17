@@ -1,0 +1,193 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+main {
+  display: flex;
+  background-color: rgba(253, 97, 209, 0.52);
+  height: 500px;
+  width: 100%px;
+}
+
+main .text {
+  width: 50%;
+}
+
+.mini {
+  margin-top: 4rem;
+  margin-left: 10rem;
+  height: 400px;
+}
+
+.text h1 {
+  font-size: 3rem;
+  height: 188px;
+  color: #272727;
+}
+
+.text p {
+  font-size: 16px;
+  color: #272727;
+  margin: 1rem 0rem;
+}
+
+.button {
+  background-color: #e7375d;
+  color: white;
+  height: 54px;
+  width: 160px;
+  border: 0px;
+  border-radius: 10px;
+}
+
+main .img {
+  width: 50%;
+}
+
+.mainpng {
+  height: 454px;
+  width: 399px;
+  margin-top: 2.5rem;
+  margin-left: 4rem;
+}
+
+.heading {
+  height: 5rem;
+  width: 30rem;
+  margin: 4rem 22rem;
+}
+
+.heading h1 {
+  margin-left: 6.5rem;
+  margin-bottom: 1rem;
+  color: rgba(39, 39, 39, 1);
+}
+
+.heading p {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+}
+
+.box{
+    display: flex;
+    height: 380px;
+    width: 900px;
+    margin-left: 9rem;
+}
+
+.box img{
+    margin-right: 25px;
+}
+
+.sh{
+    height: 190px;
+    width: 900px;
+    margin: 4rem 9.3rem;
+}
+
+.deal{
+    display: flex;
+    height: 400px;
+    background-color: rgba(229, 84, 115, 0.09) ;
+}
+
+span{
+    color: #e55473;
+}
+
+.dtext{
+    height: 130px;
+    text-align: center;
+    width: 40%;
+    margin-top: 9rem;
+    margin-left: 8rem;
+}
+
+.dtext h1{
+    font-size: 1.5rem;
+    color: rgba(39, 39, 39, 1);
+}
+
+.dtext p{
+    margin: 1rem 0px;
+    color: rgba(39, 39, 39, 1);
+}
+
+.dimg img{
+    height: 18rem;
+    margin-top: 5rem;
+    margin-left: 6rem;
+}
+
+.contactus{
+  height: 380px;
+  width: 900px;
+  margin-left: 12rem;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  background-image: url(img/back.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 5px;
+}
+
+.contactus h1{
+  font-size: 3rem;
+  padding-top: 4rem;
+  margin-left: 14rem;
+  margin-bottom: 3rem;
+  color: rgb(255, 255, 255);
+}
+
+.contactus h4{
+  font-size: 1.9rem;
+  margin-left: 15rem;
+  margin-bottom: 2rem;
+  color: rgb(255, 255, 255);
+}
+
+.contactus input{
+  height: 3rem;
+  width: 30rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-left: 8rem;
+  margin-right: 2rem;
+  border: 0px;
+  border-radius: 5px;
+}
+
+.contactus button{
+  font-size: 1rem;
+  border: 1px solid white;
+}
+
+.header{
+  height: 400px;
+  width: 78.7rem;
+  text-align: center;
+  background-color: rgba(17, 16, 16, 1);
+  color: white;
+}
+
+.p{
+  font-size: 4rem;
+  padding-top: 4rem;
+  font-weight: bold;
+}
+
+.p1{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-size: 1.2rem;
+  width: 60%;
+  margin-left: 15rem;
+}
+
+.p2{
+  margin-top: 6rem;
+  color: rgba(39, 39, 39, 1);
+}
