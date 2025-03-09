@@ -16,7 +16,7 @@ const Button = ({
 
   const SizeStyle = {
     sm: "w-20 h-10",
-    md: "w-40 h-20",
+    md: "w-25 h-10",
     full: "w-full h-full",
   };
 
@@ -24,7 +24,7 @@ const Button = ({
     <button
       onClick={onClick}
       className={twMerge(
-        "py-1 border border-orange-500 rounded rounded-lg",
+        "py-1 border border-orange-500 rounded rounded-md ",
         VariantStyle[Variant],
         SizeStyle[size],
         className
