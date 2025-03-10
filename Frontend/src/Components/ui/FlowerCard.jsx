@@ -11,12 +11,14 @@ const FlowerCard = ({
 }) => {
   return (
     <div
-      className={`bg-white w-70 h-auto rounded-md shadow-2xl p-3 ${className}`}
+      className={`bg-white w-70 h-auto rounded-md shadow-2xl p-3 ${className} flex flex-col justify-between transition duration-300 hover:scale-105 hover:shadow-md`}
     >
-      <div className="p-1">
-        <img src={img} alt="" className="w-full h-full " />
-        <p className="text-2xl w-auto p-1 mt-2">{children}</p>
-        <div className="flex justify-between px-1 mt-6">
+      <div className="p-1 rounded-t-md">
+        <img src={img} alt="" className="w-full h-full rounded-t-md" />
+      </div>
+      <div className="p-3">
+        <p className="text-2xl font-bold">{children}</p>
+        <div className="flex justify-between items-center mt-6">
           <p className="text-gray-500 text-xl">{price}</p>
           <Button variant="secondry" size="md">
             Add to cart
