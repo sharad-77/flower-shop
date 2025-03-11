@@ -1,6 +1,7 @@
 import React from "react";
 import { IoLocationSharp } from "react-icons/io5";
 import { IoCall } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -15,10 +16,10 @@ export default function Footer() {
 
         {/* Navigation Links */}
         <div className="flex flex-col space-y-2 w-full md:w-1/3">
-          <a href="index.html" className="hover:text-gray-300">Home</a>
-          <a href="shop.html" className="hover:text-gray-300">Shop</a>
-          <a href="review.html" className="hover:text-gray-300">Review</a>
-          <a href="signin.html" className="hover:text-gray-300">Sign In</a>
+          <Link to="/" className="hover:text-gray-300">Home</Link>
+          <Link to="/shop" className="hover:text-gray-300">Shop</Link>
+          <Link to="/FeedBack" className="hover:text-gray-300">FeedBack</Link>
+          <Link to="/signin" className="hover:text-gray-300">Sign In</Link>
         </div>
 
         {/* Contact Us Section */}
@@ -39,3 +40,4 @@ export default function Footer() {
     </footer>
   );
 }
+

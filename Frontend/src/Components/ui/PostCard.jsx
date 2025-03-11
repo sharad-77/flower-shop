@@ -15,14 +15,14 @@ const SocialPost = ({
   return (
     <div
       className={twMerge(
-        "max-w-md rounded-lg overflow-hidden shadow-md bg-white mx-auto my-4 transition-transform duration-300 hover:shadow-lg hover:scale-[1.01] sm:max-w-sm md:max-w-md lg:max-w-lg",
+        "max-w-xs rounded-lg overflow-hidden shadow-md bg-white mx-auto my-4 transition-transform duration-300 hover:shadow-lg hover:scale-[1.01]",
         className
       )}
     >
       {/* Header with avatar and date */}
       <div className="flex items-center justify-between p-3">
-        <div className="flex items-center space-x-3">
-          <div className="h-10 w-10 rounded-full overflow-hidden flex-shrink-0">
+        <div className="flex items-center space-x-2">
+          <div className="h-8 w-8 rounded-full overflow-hidden">
             <img
               src={avatarSrc}
               alt={username}
@@ -39,13 +39,13 @@ const SocialPost = ({
         <img
           src={image}
           alt={title}
-          className="w-full h-64 object-cover sm:h-56 md:h-64 lg:h-72"
+          className="w-full h-24 object-cover sm:h-28 md:h-32 lg:h-36"
         />
       </div>
 
       {/* Content */}
       <div className="p-4">
-        <h3 className="font-bold text-xl mb-2">{title}</h3>
+        <h3 className="font-bold text-lg mb-2">{title}</h3>
         <p className="text-gray-600">{description}</p>
       </div>
 
@@ -55,7 +55,7 @@ const SocialPost = ({
           <div className="flex items-center space-x-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5 text-gray-500"
+              className="h-4 w-4 text-gray-500"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -72,7 +72,7 @@ const SocialPost = ({
           <div className="flex items-center space-x-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5 text-gray-500"
+              className="h-4 w-4 text-gray-500"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -100,3 +100,4 @@ const SocialPost = ({
 };
 
 export default SocialPost;
+

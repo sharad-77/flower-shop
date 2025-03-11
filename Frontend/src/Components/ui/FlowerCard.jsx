@@ -6,7 +6,7 @@ const FlowerCard = ({
   img,
   price,
   variant = "primary",
-  size = "sm",
+  size = "md",
   className,
 }) => {
   return (
@@ -19,8 +19,8 @@ const FlowerCard = ({
       <div className="p-3">
         <p className="text-2xl font-bold">{children}</p>
         <div className="flex justify-between items-center mt-6">
-          <p className="text-gray-500 text-xl">{price}</p>
-          <Button variant="secondry" size="md">
+          <p className="text-gray-500 text-xl mr-4 md:mr-0">{price}</p>
+          <Button variant="secondry" size={size}>
             Add to cart
           </Button>
         </div>
@@ -30,3 +30,4 @@ const FlowerCard = ({
 };
 
 export default FlowerCard;
+
